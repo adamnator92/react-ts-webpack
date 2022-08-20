@@ -45,8 +45,7 @@ module.exports = {
     ],
   },
   plugins: [
-    // when prod it inject the compiled bundle.js file into the index.html file with <script> tag
-    // when dev it virtually inject the bundle.js file into the index.html file with <script> tag
+    // it inject the compiled bundle.js file into the index.html file
     new HtmlWebpackPlugin({
       template: path.join(__dirname, '..', './public/index.html'),
     }),
