@@ -38,7 +38,7 @@ TLDR:
 
 ### Pre-Commit
 
-1. `yarn add -D husky@4 lint-staged`
+1. `yarn add -D husky lint-staged`
 2. add configuration to package.json
 
 # GOOD to Have
