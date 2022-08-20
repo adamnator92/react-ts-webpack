@@ -14,8 +14,6 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
     //
-    'plugin:eslint-comments/recommended',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
   rules: {
